@@ -29,4 +29,4 @@ jobs:
         script: |
           cd test_ci_cd
           git pull origin main
-          npm install
+          npm install && npm run start
