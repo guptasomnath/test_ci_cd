@@ -27,6 +27,6 @@ jobs:
         username: ubuntu
         key: ${{ secrets.EC2_SSH_KEY }}
         script: |
-          cd /test_ci_cd
+          cd test_ci_cd
           git pull origin main
           npm install
