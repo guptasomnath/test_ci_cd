@@ -1,1 +1,5 @@
 node_modules
+github-deploy
+github-deploy.pem
+github-deploy.pub
+.gitignore
