@@ -30,4 +30,5 @@ jobs:
           cd test_ci_cd
           git pull origin main
           npm install
-          pm2 restart all
+          pm2 delete all || true
+          pm2 start index.js
